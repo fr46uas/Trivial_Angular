@@ -1,0 +1,22 @@
+{
+    "personas": [
+        {
+            "nombre": "Sergio",
+            "apellido": "Fraguas",
+            "direcciom": "Benigno Soto, 5",
+            "edad": 34
+        },
+        {
+            "nombre": "Ana",
+            "apellido": "Martin",
+            "direcciom": "Gran Via, 225",
+            "edad": 50
+        },
+        {
+            "nombre": "Juan",
+            "apellido": "Palomo",
+            "direcciom": "Alcala 150",
+            "edad": 28
+        }
+    ]
+}

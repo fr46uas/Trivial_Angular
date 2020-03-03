@@ -1,0 +1,16 @@
+<div class="container">
+    <h3>{{arrPreguntas[preguntaActiva].texto}}</h3>
+
+    <app-botones-respuestas [respuestas]="arrPreguntas[preguntaActiva].respuestas"
+        (respuestaSeleccionada)="manejarRespuestaSeleccionada($event)"></app-botones-respuestas>
+
+    <h5>Preguntas acertadas = {{preguntasCorrectas}}</h5>
+    <h5>Preguntas falladas = {{preguntasIncorrectas}}</h5>
+
+</div>
+
+<div>
+
+    <h4>{{ mensaje }}</h4>
+
+</div>

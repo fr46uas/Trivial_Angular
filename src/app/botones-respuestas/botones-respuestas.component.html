@@ -1,0 +1,13 @@
+<div class="wrapper">
+    <button type="button" class="btn btn-primary" *ngFor="let respuesta of respuestas; let indice= index;"
+        (click)="manejarClick(indice)">
+        {{respuesta}}
+    </button>
+</div>
+
+
+
+<!-- <button type="button" class="btn btn-primary"></button>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-danger">Danger</button>
+    <button type="button" class="btn btn-warning">Warning</button> -->

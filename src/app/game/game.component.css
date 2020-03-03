@@ -1,0 +1,40 @@
+.container{
+    background-color: lightgray;
+    width: 700px;
+    height: 300px;
+    text-align: center;
+    margin-top: 50px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+div h3{
+    margin-top: 20px;
+    background-color: yellow;
+    width: 600px;
+    height: 90px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+div h5{
+margin-top: 20px;
+background-color: tomato;
+width: 350px;
+margin-left: 150px;
+border-radius: 10px;
+    border: 2px solid black;
+}
+
+h4{
+    margin-top: 15px;
+background-color: rgb(46, 212, 60);
+width: 350px;
+margin-left: 580px;
+border-radius: 10px;
+    border: 2px solid black;
+    text-align: center;
+}
+
